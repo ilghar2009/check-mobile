@@ -16,7 +16,7 @@ function sayHello($name) {
 		<title>Visual Studio Code Remote :: PHP</title>
 	</head>
 	<body>
-		<form action="auch.php" method="post">
+		<form action="function.php" method="post">
 		        <label for="mobile">Phone number</label>
 		        <input type="text" id="mobile" name="phone">
 		        <input type="submit">
