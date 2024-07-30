@@ -12,7 +12,7 @@ function check_mobile($mobile){
         return false;
 }
 
-$phone = "09033149956";
+$phone = $_POST['phone'];
 
 if(!check_mobile($phone)){
     die('شماره درست را وارد کنید');
